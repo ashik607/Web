@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form signup">
+            <form id="registration-form" action="" method="post">
+                <h2>Personal Details</h2>
+                <div class="inputBox">
+                    <input type="text" id="name" required>
+                    <i class="far fa-user"></i>
+                    <span>name</span>
+                </div>
+                <div class="inputBox">
+                    <input type="email" id="email" required>
+                    <i class="far fa-envelope"></i>
+                    <span>email address</span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" id="phone" required>
+                    <i class="fa fa-phone"></i>
+                    <span>phone number</span>
+                </div>
+                <div class="inputBox">
+                    <input type="password" id="password" required>
+                    <i class="fas fa-lock"></i>
+                    <span> password</span>
+                </div>
+                <div class="gender">
+                    <label for="gender">Gender:</label>
+                    <input type="radio" value="Male" name='gender' id='male' required> Male
+                    <input type="radio" value="Female" name='gender' id='female'> Female
+                </div>
+                <div class="inputBox">
+                    <input type="submit" class="submit" value="Submit">
+                    <i class="fas fa-lock"></i>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
